@@ -1,0 +1,8 @@
+workflows_repository: work
+include_workflows_repository: false
+exclude:
+  repositories:
+  - do_not_run_check_for_this_repo
+  - 'playground-*'
+  - test_repository
+  - '*-foobar'
